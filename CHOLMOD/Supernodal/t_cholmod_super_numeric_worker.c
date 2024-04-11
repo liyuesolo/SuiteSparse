@@ -1087,7 +1087,7 @@ static int TEMPLATE (cholmod_super_numeric_worker)
             // error if the diagonal of L has NaN's, only if it has a zero.
             if (Common->status == CHOLMOD_OK)
             {
-                ERROR (CHOLMOD_NOT_POSDEF, "matrix not positive definite") ;
+                // ERROR (CHOLMOD_NOT_POSDEF, "matrix not positive definite") ;
             }
 
             // L->minor is the column of L that contains a zero or negative
